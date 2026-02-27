@@ -1,9 +1,16 @@
 
 public class PalindromeCheckerApp {
     public static void main(String[] args){
-        System.out.println("Welcome to the Palindrome Checker Management System");
-        System.out.println("Version: 1.0");
-        System.out.println("system initialized successfully");
+        String s1="madam";
+        String s2="madam";
+        if(s1==s2){
+            System.out.println(s1);
+            System.out.println("Palindrome");
+        }
+        else{
+            System.out.println("Not Palindrome");
+        }
+
 
     }
 }
